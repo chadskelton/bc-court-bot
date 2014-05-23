@@ -1,5 +1,7 @@
 #!/usr/bin/env python
 
+# This is set on a schedule in ScraperWiki to run every hour
+
 # Load in modules
 
 import scraperwiki
