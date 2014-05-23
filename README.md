@@ -1,4 +1,4 @@
 bc-court-bot
-============
+====
 
-Code for the @BCCourtBot Twitter bot
+Python code used to create @BCCourtBot (https://twitter.com/bccourtbot). Runs on SraperWiki.com.
