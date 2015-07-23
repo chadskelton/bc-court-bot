@@ -51,7 +51,7 @@ def tweetit(record): # both decides to tweet and whether to add to table
             scraperwiki.sqlite.save(['url'], record)
             statusupdate = "New ruling from the " + record["type"] + " in '" + CitationText + "' " + record["url"]
             print statusupdate
-            api.update_status(statusupdate)
+            api.update_status(status=statusupdate)
             time.sleep(30)
         except:
             print "Unable to add to table or tweet"
